@@ -1,0 +1,27 @@
+# Python and Jython caches
+__pycache__/
+*.py[cod]
+*$py.class
+.jython_cache/
+cachedir/
+
+# Local runtimes and environments
+*.jar
+.venv/
+venv/
+
+# Burp project artifacts and logs
+*.burp
+*.burp.bak
+*.log
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local secrets
+.env
+.env.*
+!.env.example
